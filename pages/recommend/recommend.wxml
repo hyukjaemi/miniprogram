@@ -1,0 +1,11 @@
+<view id='app-movie'>
+  <!-- 列表 -->
+  <import src="../template" />
+  <template is="movies" data="{{movies}}"></template>
+</view>
+<!-- 加载 -->
+<view class='body-view'>
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+  加载中...
+  </loading>
+</view>

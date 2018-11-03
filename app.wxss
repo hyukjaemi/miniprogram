@@ -1,0 +1,5 @@
+/**app.wxss**/
+#app-movie{
+  background-color: #3a3a3a;
+  min-height: 100%;
+} 
